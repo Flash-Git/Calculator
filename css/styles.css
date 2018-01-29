@@ -1,0 +1,55 @@
+body{
+  background: #262626;
+
+}
+
+.cell{
+    display: inline-block;
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 52px;
+    padding-top: 12px;
+}
+
+.button{
+    display: flex;
+    width: 36px;
+    height: 52px;
+}
+
+#container{
+    width: 196px;
+    height: 262px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: block;
+}
+
+#operators{
+    background-color: #262626;
+    text-align: center; 
+    width: 36px;
+    height: 208px;
+    border: 2px solid blue;
+    margin-left: 158px;
+}
+
+#innerContainer{
+    background-color: #FFFFFF;
+    float: left;
+    width: 156px; 
+    height: 208px;
+    float: left;
+    border: 2px solid orange;
+
+}
+
+#console{
+    background-color: #F55282;
+    border: black;
+    width: 156px;
+    height: 45px;
+    border: 2px solid yellow;
+
+}
